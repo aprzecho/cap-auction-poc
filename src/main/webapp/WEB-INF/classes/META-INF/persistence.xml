@@ -7,7 +7,7 @@
 
   <persistence-unit name="kghmPocPU" transaction-type="JTA">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <jta-data-source>jdbc/kghmPocDS</jta-data-source>
+    <jta-data-source>jdbc/simpleDS</jta-data-source>
     <class>com.poc.model.Auction</class>
     <properties>
       <property name="eclipselink.logging.level" value="FINE"/>
